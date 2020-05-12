@@ -1,0 +1,61 @@
+/* Aula inicial :D 
+
+Aula 1
+A função do HTML é dar significado para o texto. Não tem o papel de deixar o documento bonito.
+O CSS que faz o trabalho de transformar o código html, acessando os elementos do html e adicionar elementos visuais.
+*/
+
+body {
+    /* background: Grey;
+     aceita código hexadecimal #0000ff para azul por exemplo RGB 0 para nada e f de full */
+    background-image: url('http://www.vanessametonini.com.br/imersaocss/a1/img/fundo.jpg');
+    background-size: auto 100vh; /* limita a imagem pela altura a 100% e no comprimento faz proporcional automaticamente; funciona com pixel também 50px 500px*/
+    font-family: Arial;
+    height: 100vh; /* garante que a a altura do body será sempre a mesma */
+  }
+  /* chama o nav class menu e atribui as caracteristicas nele */
+  .menu {
+    background-color: white;
+  }
+  
+  /* display flex força tudo virar coluna dentro do menu ul 
+  justify-content só funciona se o diplay free estiver ativo
+  justify-content é como voce quer justificar o conteúdo - utilizar o around ou o between
+  */
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* aplica para todos os li dentro do menu o nome do list-style */
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    /* aplica nos grupos a */
+    color: teal;
+    text-decoration: none;
+   /*   ctrl + espaço abre o menu */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .site-subtitle,
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+    /*color: blue;
+    text-align: center;*/
+  }
+  
+  
+  
+  /* passei no 42:15 do video 
+  https://www.youtube.com/watch?time_continue=6&v=jf_JVto07qg&feature=emb_logo */
+  
